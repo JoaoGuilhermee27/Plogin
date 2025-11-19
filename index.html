@@ -5,87 +5,106 @@
   <title>Tela de Login</title>
 
   <style>
-
-    .pai{
+    .pai {
       display: flex;
       justify-content: space-between;
       align-items: center;
+
     }
-   .filho1{
-    align-items: start;
-    background-color: rgb(91, 226, 91);
-    height: 600px;
-    width: 580px ;
- 
-   }
 
-   .filho2{
-     align-items: center;
-     background-color: white;
-     margin-right: 150px;
-     margin-bottom: 30px;
-     
-   }
+    .filho1 {
+      align-items: start;
+      background-color: rgb(91, 226, 91);
+      height: 600px;
+      width: 680px;
 
-   #imagem{
-    align-self: flex-start;
-    height: 600px;
-    width: 500px;
-   }
+    }
 
-   h2{
-    font-family:  Courier, monospace;
-   }
+    .filho2 {
+      align-items: center;
+      background-color: white;
+      margin-right: 120px;
+      margin-bottom: 30px;
 
-   .text{
-    width: 300px ;
-    height: 30px;
-   }
 
-   #entrar{
-    height: 40px ;
-    width: 300px;
-     background-color: rgb(91, 226, 91);
-     border: 0cap;
-   }
+    }
+
+    #imagem {
+      align-self: flex-start;
+      height: 600px;
+      width: 500px;
+    }
+
+    h2 {
+      font-family: Courier, monospace;
+    }
+
+    .text {
+      width: 300px;
+      height: 30px;
+    }
+
+    #entrar {
+      height: 40px;
+      width: 300px;
+      background-color: rgb(91, 226, 91);
+      border: 0cap;
+    }
+
+    .icons {
+      height: 30px;
+      width: 30px;
+      margin-right: 15px;
+    }
+
+    .title {
+      margin-right: 210px;
+
+    }
   </style>
 </head>
 
-<body style="font-size: 27px; ">
+<body style="font-size: 24px; ">
   <div class="pai">
     <div class="filho1">
-     <img src="login.svg" id="imagem">
+      <img src="login.svg" id="imagem">
     </div>
 
     <div class="filho2" align="center">
       <h2>Login</h2>
-      <div>
-        <p>Username</p>
+      <div style="margin-bottom: 20px;">
+        <span class="title">Username</span>
         <input type="text" class="text">
-      
+
+      </div>
+
       <div>
-        <p>Password</p>
+        <span class="title">Password</span>
         <input type="text" class="text">
-      </div>
-     <div>
-       <input type="checkbox">
-      Remember-me
-      <a href="">esqueceu a senha?</a>
-     </div>
 
-      <div>
-       <input type="button" value="Entrar" id="entrar">
-      </div>
-      
-      <div>
-        Não tem uma conta?
-        <a href="">Inscrever-se</a>
-      </div>
+        <div style="margin-top: 20px; font-size: 17px;">
+          <input type="checkbox">
+          <span style="margin-right: 44px;"> Remember-me</span>
+          <a href="" style="color: blue;">esqueceu a senha?</a>
+        </div>
 
-      <p>Logar com</p>
+        <div>
+          <input type="button" value="Entrar" id="entrar">
+        </div>
 
+        <div style="margin-top: 20px; font-size: 20px;">
+          Não tem uma conta?
+          <a href="" style="color: blue;">Inscrever-se</a>
+        </div>
+
+        <p>Logar com</p>
+
+        <a href=""> <img src="facebook (1).png" class="icons"></a>
+        <a href=""><img src="google (1).png" class="icons"></a>
+        <a href=""><img src="apple.png" class="icons"></a>
+
+      </div>
     </div>
-  </div>
 </body>
 
 </html>
