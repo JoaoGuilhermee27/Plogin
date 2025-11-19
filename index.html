@@ -63,48 +63,50 @@
     }
   </style>
 </head>
+<form action="cadastro.php" method="get" autocomplete="on">
 
-<body style="font-size: 24px; ">
-  <div class="pai">
-    <div class="filho1">
-      <img src="login.svg" id="imagem">
-    </div>
-
-    <div class="filho2" align="center">
-      <h2>Login</h2>
-      <div style="margin-bottom: 20px;">
-        <span class="title">Username</span>
-        <input type="text" class="text">
-
+  <body style="font-size: 24px; ">
+    <div class="pai">
+      <div class="filho1">
+        <img src="login.svg" id="imagem">
       </div>
 
-      <div>
-        <span class="title">Password</span>
-        <input type="text" class="text">
+      <div class="filho2" align="center">
+        <h2>Login</h2>
+        <div style="margin-bottom: 20px;">
+          <span class="title" >Username</span>
+          <input type="text" class="text" placeholder="@mail.com" name="Nome">
 
-        <div style="margin-top: 20px; font-size: 17px;">
-          <input type="checkbox">
-          <span style="margin-right: 44px;"> Remember-me</span>
-          <a href="" style="color: blue;">esqueceu a senha?</a>
         </div>
 
         <div>
-          <input type="button" value="Entrar" id="entrar">
+          <span class="title" name="Nome">Password</span>
+          <input type="text" class="text" placeholder="Password" name="password">
+
+          <div style="margin-top: 20px; font-size: 17px;">
+            <input type="checkbox">
+            <span style="margin-right: 44px;"> Remember-me</span>
+            <a href="" style="color: blue;">esqueceu a senha?</a>
+          </div>
+
+          <div>
+            <input type="submit" value="Entrar" id="entrar">
+          </div>
+
+          <div style="margin-top: 20px; font-size: 20px;">
+            Não tem uma conta?
+            <a href="" style="color: blue;">Inscrever-se</a>
+          </div>
+
+          <p>Logar com</p>
+
+          <a href=""> <img src="facebook (1).png" class="icons"></a>
+          <a href=""><img src="google (1).png" class="icons"></a>
+          <a href=""><img src="apple.png" class="icons"></a>
+
         </div>
-
-        <div style="margin-top: 20px; font-size: 20px;">
-          Não tem uma conta?
-          <a href="" style="color: blue;">Inscrever-se</a>
-        </div>
-
-        <p>Logar com</p>
-
-        <a href=""> <img src="facebook (1).png" class="icons"></a>
-        <a href=""><img src="google (1).png" class="icons"></a>
-        <a href=""><img src="apple.png" class="icons"></a>
-
       </div>
-    </div>
+</form>
 </body>
 
 </html>
